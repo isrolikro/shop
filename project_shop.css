@@ -1,10 +1,73 @@
+*{
+    margin: 0;
+}
+.a{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
 .header {
     background-color: #ffdecb;
     height: 5vh;
+    color: #4d4d4d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
 
+#bu1, #bu2{
+    background-color: #ffdecb;
+    border: #ffdecb;       
 }
 .heade {
     background-color: #FFBF9B;
     height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 
+.headeButten1 ,.headeButten2 ,.headeButten3 ,.headeButten4 , .headeButten5 {
+    border-radius: 15px;
+    border-width: 0.5px;
+    background-color: #FFBF9B;
+    color: #4d4d4d;
+
+}
+
+.headeButten1:hover ,.headeButten2:hover ,.headeButten3:hover ,.headeButten4:hover ,.headeButten5:hover {
+    background-color: #ffdecb ;
+}
+
+
+
+.end {
+    background-color: #4d4d4d;
+    height: 5vh;
+    color: whitesmoke ;
+    font-weight: 100;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  
+}
+.addNewProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
 }

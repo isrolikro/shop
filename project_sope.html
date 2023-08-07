@@ -1,19 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project_shop.css">
     <title>shop</title>
 </head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <body>
-    <div class="header"></div>
-    <div class="heade"></div>
-    <script src="project_shop.js"></script>
-    
+
+    <header class="a">
+        <div class="header">
+            <span id="b"> Inventory management </span>
+            <span id="icon">
+                <button id="bu1" class="material-icons">house</button>
+                <button id="bu2" class="material-icons">add_circle_outline</button>
+            </span>
+        </div>
+        <div class="heade">
+            <span>
+                <button class="headeButten1">All Products</button>
+                <button class="headeButten2">Men</button>
+                <button class="headeButten3">Women</button>
+                <button class="headeButten4">Jewelery</button>
+                <button class="headeButten5">Electronics</button>
+            </span>
+            <span>
+                <form action="search_results.php" method="get">
+                    <input type="text" name="txt2srch">
+                    <spon id="fake" style="display: none;">
+                        <input name="Fakename" value="">
+                        <input name="Fakesys" value="ON">
+            </span>
+            </form>
+            </span>
+
+        </div>
+    </header>
+    <div class="homepage">
+
+        <div class="products">
+
+            <div class="tetils"> </div>
+        </div>
+    </div>
+    <div class="productPage">
+
+    </div>
+    <div class="editProduct">
+
+    </div>
+    <div class="addNewProduct">
+
+        <h1>Add New Product</h1>
+
+        <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+
+    <div class="end">
+        <span>Technical support</span>
+        <span class="material-icons"> phone</span>
+        <span> +1 111.111.1111</span>
+    </div>
+    <script src="project_shop.js"> </script>
+
 </body>
+
 </html>
 
+<!-- בהתחלה של פרוייקט, פעם אחת -->
 <!-- git init
 git add .
 git commit -m "first commit"
@@ -21,6 +86,7 @@ git branch -M main
 git remote add origin https://github.com/isrolikro/shop.git
 git push -u origin main -->
 
-git add .
+<!-- עדכון של קוד -->
+<!-- git add .
 git commit -m "description of the changes in the code"
-git push 
+git push  -->
